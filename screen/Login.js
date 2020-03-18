@@ -25,7 +25,7 @@ class Login extends Component {
         let validarLog = await api.validarLog(this.state.username, this.state.pass)
 
         if(validarLog.status == 1){
-            this.props.navigation.navigate('Marvel');
+            this.props.navigation.navigate('Principal');
         }
         else{
             Alert.alert('Usuario o clave inválidos');

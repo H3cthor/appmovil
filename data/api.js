@@ -1,6 +1,6 @@
 import {Alert} from 'react-native';
 
-const URL_DATA = 'http://192.168.43.80/iot/data/';
+const URL_DATA = 'http://10.0.0.10/iot/data/';
 
 class API {
 
